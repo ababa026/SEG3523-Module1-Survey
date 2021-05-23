@@ -1,0 +1,329 @@
+
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+html {
+  background-color: white;
+}
+body{
+   background-color: #eca1a6;
+   width :100%;
+   margin: 0px;
+}
+form{
+  text-align: center;
+  width: 90%;
+ height: auto;
+ position: relative;
+  margin : auto;
+  background-color: white;
+  color : black;
+  font-family: Verdana, sans-serif;
+}
+
+h1{
+  background-color: #eca1a6;
+  font-family: Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  padding: 20px;
+}
+
+footer{
+    background-color: #eca1a6;
+  font-family: Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  padding: 20px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+    border: 2px solid #ddd;
+  border-radius: 4px;
+  align: auto;
+}
+
+
+
+
+a {
+  color: #d64161;
+  text-decoration: none;
+}
+
+
+.question {
+ display : block;
+ padding-botton :300px;
+}
+
+.label-tab{
+  display : inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.input-tab{
+    display : inline-block;
+    padding-top: 20px;
+  width: 50%;
+  text-align: left;
+}
+
+.input1-tab{
+    display : inline-block;
+  width: 50%;
+  text-align: left;
+}
+
+.select-tab{
+   padding-top: 20px;
+      display : inline-block;
+  width: 54%;
+  text-align: left;
+}
+
+
+input {
+   padding: 10px;
+   margin: 10px 0;
+   border-radius: 10px;
+     border:0.5px solid;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}
+
+textarea{
+    width:95%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0.5px solid;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:150px;
+}
+
+.container {
+  width: 50%;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark {
+  background-color: #d64161;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.container2:hover input ~ .checkmark2 {
+  background-color: #ccc;
+}
+
+
+.container2 input:checked ~ .checkmark2 {
+  background-color: #d64161;
+}
+
+
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+
+.container2 .checkmark2:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.container3 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container3 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.container3:hover input ~ .checkmark3 {
+  background-color: #ccc;
+}
+
+
+.container3 input:checked ~ .checkmark3 {
+  background-color: #d64161;
+}
+
+
+.checkmark3:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container3 input:checked ~ .checkmark3:after {
+  display: block;
+}
+
+
+.container3 .checkmark3:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+select  {
+  width: 100%;
+  padding:10px;
+  border-radius:10px;
+}
+
+button {
+  appearance:none;
+  -webkit-appearance:none;
+  padding:10px;
+  border:none;
+  background-color:#d64161;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:50%;
+}
+
